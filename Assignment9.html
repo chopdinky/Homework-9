@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>Natalee's Last Ride Before Winter</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+<script>
+function setup()
+{
+createCanvas(500, 600)
+}
+function draw()
+            {
+                background(00,00,00);
+                strokeWeight(1);
+
+                //my head
+                fill(255,255,255);
+                circle(250,250,75);
+
+                //my torso
+                stroke(255,255,255);
+                line(250,275,250,375);
+
+                //my longboard
+                fill(52,46,37)
+                stroke(00,00,00);
+                ellipse(250,410,100,30);
+
+                //my left leg
+                stroke(255,255,255);
+                line(250,375,225,410);
+
+                //my right leg
+                stroke(255,255,255);
+                line(250,375,275,410);
+
+                //my arms
+                stroke(255,255,255);
+                line(205,315,300,315);
+
+                //the left side of my glasses
+                stroke(00,00,00);
+                fill(255,255,255);
+                rect(220,235,27,20);
+
+                //the right side of my glasses
+                stroke(00,00,00);
+                fill(255,255,255);
+                rect(260,235,27,20);
+
+                //my left eye
+                strokeWeight(10);
+                point(230,245);
+
+                //my right eye
+                point(270,245);
+
+                //longboard left wheel
+                fill(52,46,37);
+                strokeWeight(5);
+                circle(215,430,30);
+
+                 //longboard right wheel
+                fill(52,46,37);
+                strokeWeight(5);
+                circle(280,430,30);
+
+                //my smile
+                noFill();
+                stroke(00,00,00);
+                strokeWeight(2);
+                arc(250,260,40,20,0,PI);
+
+                //my helmet
+                fill(163,44,196);
+                strokeWeight(1);
+                triangle(200,230,250,202,300,230);
+
+                textSize(24);
+                text('Last Ride Before Winter',135,100);
+                
+                textSize(18);
+                text('by Natalee Justus', 300,550);
+
+            }
+</script>
+</head>
+<body></body>
+</html>
